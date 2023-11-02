@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-clr: #434e61;
+  --primary-clr: #ff8c1e;
+  --primary-clr-hsl: hsla(29, 100%, 56%, 1);
+}
+body,
+html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-clr) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-h2 {
+  font-size: 28px !important;
+  font-weight: bold !important;
+  line-height: normal !important;
+}
+
+/* width
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+Track
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+Handle
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}  */
